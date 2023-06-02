@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #e2dbdb;
+}
+
+hr{
+  border-color: #f05f44;
+  border-width: 4px; /* am shemtxvevashi es xazi hr _is sigane(width) gaizrdeba anu px ebit shegvidzlia varegulirot es width */
+  max-width: 70px; /* Allows authors to constrain content width to a certain range. */
+}
+.buffer{
+  height: 10rem;
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
+.btn{
+  font-weight: 500; /* anu ufro amuqebs texts boldis stilshi ubralod exla cifrebit vwert boldis magivrad */
+  border-radius: 300px; 
+  text-transform: uppercase;
+}
+.btn-primary{
+  background-color: #f05f44;
+  border-color: #f05f44; /*  bordersac rom qondes feri da ar iyos sxva feri */
+}
+.btn-primary:hover{
+  background-color:#ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px; /*  am shemtxvevashi kursors rom mivitant  am textsze 4px lit gaizrdeba  naxo jobia */
+}
